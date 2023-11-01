@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atributos input</title>
+</head>
+<body>
+    <h1>atributos Input</h1>
+    <hr>
+    <br>
+    <form action="https//www.google.com/search" method="get"> 
+        <label for="fnombre">Escoja su navegador:</label> 
+        <input type="text" name="fnombre" id="fnombre" id="fnombre" maxlength="15" minlength="2" placeholder="Ingrese su navegador" size="17" list="browser"  pattern="[a-zA-Z]{1,15}">
+        <!-- <datalist id="browser" value="Chrome">
+            si la persona no escribe nada queda un valor predeterminado
+            <option value="Chrome"> </option>
+            <option value="Edge"> </option>
+            <option value="Opera"> </option>
+            <option value="Firefox"> </option>
+        </datalist>    -->
+        <br><br>
+        <label for="poss">Contraseña</label>
+        <input type="password" name="pass" id="pass" >
+        <br><br>
+        lenguje de Programcion favortio
+        <br><br>
+        <input type="radio" name="lengprog" id="Ada" value="Ada">
+        <label for="lengprog">Ada</label> <br>
+        <input type="radio" name="lengprog" id="Python" value="Python">
+        <label for="lengprog">Python</label> <br>
+        <input type="radio" name="lengprog" id="Java" value="Java">
+        <label for="lengprog">Java</label> <br>
+        <input type="radio" name="lengprog" id="HTML" value="HTML">
+        <label for="lengprog">HTML</label> <br>
+        <br>
+        Pasatiempos
+        <br><br>
+        <input type="checkbox" name="pasatiempos" id="leer" value="leer">
+        <label for="leer">leer</label>
+        <input type="checkbox" name="pasatiempos" id="cine" value="cine">
+        <label for="cine">cine</label>
+        <input type="checkbox" name="pasatiempos" id="comer" value="comer">
+        <label for="comer">comer</label>
+        <input type="checkbox" name="pasatiempos" id="monda" value="monda" checked>
+        <label for="monda">monda</label>
+        <input type="checkbox" name="pasatiempos" id="programar" value="programar" checked>
+        <label for="programar">programar</label>
+        <br><br>
+        <input type="button" value="ver mensaje" onclick="alert('feliz halloween')">
+        <br>
+        <label for="colorfav">Escoja un color</label>
+        <input type="color" name="color" id="colorfav">
+        <br><br>
+        <label for="fechanac">Fecha de nacimiento antes 2002</label>
+        <input type="date" name="fechanac" id="fechanac" max="1999-12-31">
+        <label for="fechanac">Fecha de nacimiento despues del 2020</label>
+        <input type="date" name="fechanac" id="fechanac" min="2019-12-31">
+        <br><br>
+        <label for="fecha-hora-nac">Fecga y hora de nacimiento: </label>
+        <input type="datetime-local" name="fecha-hora-nac" id="fecha-hora-nac">
+        <br><br>
+        <label for="email">Ingrese su correo electronico</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <input type="image" src="../aplicaciones.png" alt="aplicaciones" width="50" onclick="alert('esto es un menu')"> 
+
+        <br><br>
+        <label for="archivo">Escoja un archivo</label>
+        <input type="file" name="archivo" id="archivo" accept=".png, .jpg, .gif"> 
+        <br><br>
+        <input type="hidden" name="estadoform" value="complete">
+        <br><br>
+        <label for="mes-nacimiento">Escoja el mes </label>
+        <input type="month" name="mes-nacimiento" id="mes-nacimiento" >
+        <br><br>
+        <label for="numero">Escoja la edad</label>
+        <input type="number" name="numero" id="numero" min="18" max="40" value="18" step="2" >
+        <br><br>
+        <label for="volumen">volumen</label>
+        <input type="range" name="volumen" id="volumen" min="10" max="50" step="6">
+
+        <br><br>
+        <legend>
+            <label for="busqueda">buscar en google</label>
+        <input type="search" name="q" id="busqueda">
+        </legend>
+        
+        <br><br>
+        <label for="comentarios">Escriba los comentarios</label>
+        <br>
+        <textarea name="comentarios" id="comentarios" cols="25" rows="10"></textarea>
+        <br><br>
+        
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+        
+    </form>
+</body>
+</html>
