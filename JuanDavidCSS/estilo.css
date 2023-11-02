@@ -1,0 +1,48 @@
+
+#titulo{
+    color: aqua;
+}
+
+.destacado{
+    color: rgb(186, 202, 40);
+}
+p a em{
+    color: blue;
+}
+.rojos{
+    color:red
+}
+#subtitulo {
+    color: rgb(43, 41, 165);
+}
+
+.especial{
+    color: rgb(211, 211, 32);
+}
+
+#purple{
+    color: blueviolet;
+}
+caption{ 
+    color: blue;
+}
+table, th, td{
+    border: 1px solid black ;
+    border-collapse: collapse;
+
+}
+.verdes{
+    color: green;
+}
+td strong{
+    color: rgb(224, 255, 46);
+}
+div p{
+    color: green;
+}
+#especial{
+    color: violet;
+}
+#colores{
+    color: rgb(55, 245, 55);
+}
