@@ -1,0 +1,31 @@
+body{
+    background-color: brown;
+}
+
+.fondo{
+    background-color: rgb(139, 139, 139);
+    padding: 100px;
+}
+#parte1{
+    background-color: rgb(247, 113, 113);
+    padding: 125px;
+}
+#cuadro{
+    padding: 50px auto;
+    border: 5px solid rgb(243, 239, 239);
+    margin: auto ;
+    width: 250px; 
+    background-color: bisque;
+}
+#texto{
+    padding: 140px;
+    border: 1px solid black;
+}
+#pie{
+    padding: 200px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+h1{
+    font-size: 50px;
+}
