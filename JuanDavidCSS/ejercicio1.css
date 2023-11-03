@@ -1,0 +1,30 @@
+nav{
+    width: 600px;
+    background: gray;
+    
+
+}
+#Inicio{
+    padding: 10px;
+    background-color: #c8c8d1;
+    color: black;
+}
+div{
+    padding: 20px;
+    width: 100px;
+
+    
+}
+.bloques{
+    width:  calc(32.3% - 42px + 2px);
+    display: inline-block;
+    
+
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
