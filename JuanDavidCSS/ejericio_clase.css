@@ -4,7 +4,7 @@ section:nth-child(1)>div{
     position: relative;
     text-align: end;
     right: 90%;
-    top: 8px;
+    top: 10px;
 
 }
 section:nth-child(2)>div{
