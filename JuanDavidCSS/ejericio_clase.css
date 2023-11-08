@@ -1,0 +1,52 @@
+section:nth-child(1)>div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rebeccapurple;
+    position: relative;
+    text-align: end;
+    right: 90%;
+    top: 8px;
+
+}
+section:nth-child(2)>div{
+    position: relative;
+    left: 70%;
+    bottom: 5px;
+
+}
+section:nth-child(3)>div{
+    color: rgb(126, 77, 17);
+    border: 2px solid black;
+    height: 30px;
+    background-color: bisque;
+}
+
+section:nth-child(4)>article{
+    border: 2px solid black;
+    margin: 15px;
+    width: 15%  ;
+    height: 400px;
+}
+
+section:nth-child(5)>article{
+    border: 2px solid black;
+    margin: 15px;   
+    width: 15%  ;
+    height: 400px;
+}
+
+main{
+    border: 2px solid black ;
+    width: 60%;
+    margin-left: 17%;
+    position: relative;
+    bottom: 838px;
+
+}
+section:nth-child(7)>article:nth-child(1){
+    border: 2px solid salmon;
+}
+section:nth-child(7)>article:nth-child(2){
+    border: 2px solid salmon;
+}
+
+
