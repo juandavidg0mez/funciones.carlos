@@ -1,0 +1,29 @@
+selector altera los elementos estrcturales del html
+selector id clase atributos y otros visjaes div 
+#id .clases botton.primary 
+etique{ propiedad y valoras
+    }
+    uno puede qgenerar clases dentro de clases 
+    que visaaje fraemwoord
+    selecciones mixtas
+    selectores de atributos
+
+se puede afectar por atributos
+
+atributos expresiones regulares, aplica pra muchos o individuales 
+atributo existente
+atributo con valores exactos 
+atributo con lista de pabras que en los atributos este esa palabra
+atributo con lista compuesta: |=
+
+comienza o acaban un atributo 
+final del aatributo 
+
+
+pseudoclases de interacion
+cuando uno intereciones con la 
+pagina usurio ~pagina
+
+
+pseudoclases de ubicacion:
+
