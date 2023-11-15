@@ -1,0 +1,7 @@
+nos permite maquetar es un sisntemsa de elementos flexibles que llega la ida de olvidar mecanismos y acostumbrarnos a una mecanica mas potente y limpoa y personalizable 
+flex or greet or combination of above 
+eje rpincipal 
+je secundario 
+items son lo hijos del contenero que se alinean dependiendo del eje donde lo coloquemos 
+
+dsiplay : flex es lo pirncipal 

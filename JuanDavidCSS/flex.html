@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        dody{
+            background-color: beige;
+
+        }
+        .item{
+            border: 1px solid black;
+            background-color: antiquewhite;
+            font-family: sans-serif, monospace;
+            font-weight: bold;
+            width: 120px;
+            /* height: 120px; */
+            line-height: 120px;
+            text-align: center;
+            margin: 5px;
+
+        }
+        .content{
+            background-color: #E4E4E4;
+            border: 1px solid black;
+            padding: 20px;
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+            /* esto ajusta los objetos  los centra  para evistar que los elementos se salgan del contenedor el flex flow me condensa o simp0lifica el flex direccion que es el eje y el flex warp el responsif */
+            flex-flow: row wrap;
+            justify-content:flex-start;
+            /* este es emn el eje principal osea horizontal */
+            
+            /* esto ajusta el espacio igual en cada elemento  el around hace una margen en todos los elementos haciendo enfacis en los de las esqueinas o lados */
+            height: 600px;
+            align-content: space-between;
+            /* esto alinea vertical o en el centro abajo arriba */
+
+            /* esto lo podemos utilizar para la planeacion de las costuras mensulaes y calendarios */
+            /* estamos cambiando el contenedor y las cajas se ajustan al contenedor como el agua ASaID*/
+            
+
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendiendo FlexBox</h1>
+    <section class="content">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+    </section>
+  
+</body>
+</html>

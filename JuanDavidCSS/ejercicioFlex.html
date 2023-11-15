@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Flex-box</title>
+    <style>
+        body {
+            background-color: beige;
+        }
+
+        .item {
+            border: 1px solid black;
+            background-color: rgba(123, 198, 199, 0.8);
+            font-family: sans-serif, monospace;
+            /* font-weight: bold; */
+            /* negrilla de la letra */
+            width: 100px;
+            height: 30px;
+            /* height: 120px; */
+            margin: 5px;
+            padding-left: 2px;
+            
+
+
+        }
+
+        .content1 {
+
+            padding: 5px;
+            margin: 0 auto;
+            display: flex;
+            align-content: space-between;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        ul:hover {
+            opacity: 80%;
+            background-color: #e4e4e4;
+            transition: 0.5s;
+            list-style: none;
+        }
+
+        .content2 {
+            padding: 5px;
+            margin: 0 auto;
+            display: flex;
+            align-content: space-around;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .item3{
+            border: 1px solid black;
+            background-color: rgba(123, 198, 199, 0.8);
+            font-family: sans-serif, monospace;
+            /* font-weight: bold; */
+            /* negrilla de la letra */
+            width: 200px;
+            /* height: 120px; */
+            margin: 5px;
+            padding-left: 2px;
+            text-align:Justify;
+            
+            
+            
+
+
+        }
+        .content3{
+            padding: 5px;
+            margin: 0 auto;
+            display: flex;
+            align-content: space-between;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Menu horizontal</h2>
+    <section class="content1">
+
+        <ul class="item"><a href="# ">Home</a></ul>
+        <ul class="item"><a href="#">Servicios</a></ul>
+        <ul class="item"><a href="#">Opciones</a></ul>
+        <ul class="item"><a href="#">Planes</a></ul>
+        <ul class="item"><a href="3">Contacto</a></ul>
+    </section>
+    <h2>Menu vertical</h2>
+    <section class="content2">
+
+        <ul class="item"><a href="# ">Home</a></ul>
+        <ul class="item"><a href="#">Servicios</a></ul>
+        <ul class="item"><a href="#">Opc    iones</a></ul>
+        <ul class="item"><a href="#">Planes</a></ul>
+        <ul class="item"><a href="#">Contacto</a></ul>
+    </section>
+    <h2> Cuadros DE texto </h2>
+    <section class="content3">
+
+        <ul class="item3"><div>Lorem ipsum dolor sit amet consectetur .</div></ul>
+        <ul class="item3"><div>Lorem ipsum dolor sit amet consectetur  tempore nam ullam! Reiciendis, voluptatibus esse.</div></ul>
+        <ul class="item3"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero adipisci eum minima autem omnis tempore nam ullam! Reiciendis, voluptatibus esse.</div></ul>
+    </section>
+
+
+
+</body>
+
+</html>
