@@ -1,0 +1,4 @@
+https://www.campusmvp.es/recursos/post/como-maquetar-html-con-el-sistema-grid-de-css.aspx
+
+
+https://www.freecodecamp.org/espanol/news/tutorial-de-css-flexbox-y-css-grid-como-crear-una-pagina-de-inicio-responsivo-con-html-y-css/
