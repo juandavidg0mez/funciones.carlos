@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+            .contenedor{
+            background-color: #E4E4E4;
+            margin: 0 auto;
+            padding: 10px;
+            display: grid;
+            width: 80%;
+            height: 600px;
+            gap: 10px;
+            grid-template-columns: auto auto auto;
+
+            }
+            .item{
+                border: 1px solid brown;
+            }
+            .color1{
+                background-color: orange;
+            }
+            .color2{
+                background-color: cadetblue;
+            }
+            .color3{
+                background-color: rgb(133, 20, 45);
+            }
+
+
+            
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="item color1"></div>
+        <div class="item color2"></div>
+        <div class="item color3"></div>
+    </div>
+</body>
+</html>
