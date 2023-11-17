@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NICE</title>
+    <style>
+
+        body{
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-rows: repeat(10,1fr);
+            font-weight: bolder;
+            gap: 5px;
+
+        }
+        header{
+            background-color: cadetblue;
+        }
+        nav{
+            background-color: darkkhaki;
+        }
+        section{
+            background-color: goldenrod;
+        }
+        article{
+            background-color: orange;
+        }
+        aside{
+            background-color: goldenrod;
+        }
+        footer{
+            background-color: chocolate;
+        }
+        @media (max-width:480px){
+            header{
+                grid-column: 1/-1;
+            }
+            nav{
+                grid-column: 1/-1;
+            }
+            section{
+                grid-column: 1/-1;
+                grid-row: 3/span 3;
+
+            }
+            article{
+                grid-column: 1/-1;
+                grid-row: 6/span 2;
+
+
+            }
+            aside{
+                grid-column: 1/-1;
+                grid-row: 3/span 3;
+            }
+            footer{
+                grid-column: 1/-1;
+            }
+        }    /* 480 - 768 */
+
+            @media (min-width:480px) and (max-width:768px){
+            header{
+                grid-column: 1/-1;
+            }
+            nav{
+                grid-column: 1/6;
+                grid-row:2 / span 3 ;
+            }
+            section{
+                grid-column: 1/  7;
+                grid-row: 2/ 7;
+
+            }
+            article{
+                grid-column: 7/ span 6;
+                grid-row: 5/span 2;
+
+
+            }
+            aside{
+                grid-column: 7/-1;
+                grid-row: 2/-7;
+            }
+            footer{
+                grid-column: 1/-1;
+            }
+
+        }
+
+            @media  (min-width:768px){
+            header{
+                grid-column: 1/-1;
+            }
+            nav{
+                grid-column: 1/7;
+                grid-row:2 /span  7;
+            }
+            section{
+                grid-column: 7/ 10;
+                grid-row: 2/6;
+
+            }
+            article{
+                grid-column: 10/ 13;
+                grid-row: 2/span 4;
+
+
+            }
+            aside{
+                grid-column: 10/13;
+                grid-row: 4/span 6;
+            }
+            footer{
+                grid-column: 1/-1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <nav>Nav</nav>
+    <section>section</section>
+    <article>article</article>
+    <aside>aside</aside>
+    <footer>Footer</footer>
+</body>
+</html>
