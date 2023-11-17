@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>niceee</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            display: grid;
+            gap: 5px;
+            grid-template-columns: repeat(4, 1fr) ;
+            grid-template-rows: repeat(4, 1fr);
+        }
+        div{
+            text-align: center;
+        }
+        /* Esta va de 480px a 720px*/
+         @media (min-width:480px) and (max-width:720px){
+            .papa{
+                grid-column: 1/1;
+            }
+
+            .papa2{
+                grid-column: 1;
+                grid-row: 2;
+
+            }
+            .papa3{
+                grid-column: 1;
+                grid-row: 3;
+
+            }
+            .cerdo{
+                grid-column: 1;
+                grid-row: 4;
+            }
+         }
+
+         @media (min-width:720px) and (max-width:1020px){
+            .papa{
+                grid-column: 1/1;
+            }
+
+            .papa2{
+                grid-column: 2;
+                
+
+            }
+            .papa3{
+                grid-column: 1;
+                grid-row: 2;
+
+            }
+            .cerdo{
+                grid-column: 2;
+                grid-row: 2;
+            }
+         }
+         @media (min-width:1020px){
+            .papa{
+                grid-column: 1/1;
+            }
+
+            .papa2{
+                grid-column: 3;
+                grid-row: 1;
+                
+
+            }
+            .papa3{
+                grid-column: 4;
+                grid-row: 1;
+
+            }
+            .cerdo{
+                grid-column: 2;
+                grid-row: 1;
+            }
+
+         }
+         
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="papa"><img src="https://cdn-icons-png.flaticon.com/256/4193/4193253.png" alt=""></div>
+            <div class="cerdo"><img src="https://cdn-icons-png.flaticon.com/256/4193/4193299.png" alt=""></div>
+            <div class="papa2"><img src="https://cdn-icons-png.flaticon.com/256/4193/4193257.png" alt=""></div>
+            <div class="papa3"><img src="https://cdn-icons-png.flaticon.com/256/4193/4193257.png" alt=""></div>
+        </div>
+    </div>  
+</body>
+</html>
